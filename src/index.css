@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:wght@100..900&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   font-family: Outfit;
 }
 
-@media (max-width: 740px) {
-  .active p {
-    @apply text-white bg-blue-700;
-  }
+.active p {
+  @apply text-white bg-blue-700;
 }
